@@ -1,0 +1,58 @@
+
+.Usercard {
+    background-color: rgb(169, 158, 172);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1 em;
+    margin: 1rem;
+
+}
+.Usercard__div{
+    min-width: 270px;
+    min-height: 190px;
+    border: 1px solid #1a1212;
+    text-align: center;
+    margin: .7rem;
+    background-color: lightgray;
+    padding: .7rem;
+    border-radius: .3em;
+  
+}
+.Usercard__Userid{
+    
+    margin-top: .3rem;
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: lighter;
+}
+.Usercard__Username{
+    font-size: 1.2rem;
+
+}
+.Usercard__Email{
+    text-align: left;
+    margin-left: 1rem;
+    display: block;
+    text-transform: uppercase;
+}
+.Usercard__Getemail{
+    display: block;
+}
+.Usercard__Birthday{
+    text-align: left;
+    margin-left: 1rem;
+    display: block;
+    text-transform: uppercase;
+}
+.Usercard__Getbirthday{
+    display: block;
+}
+.Usercard__Delete{
+    margin: .5rem;
+    border: 1px solid #1a1212;
+    background-color: rgba(196, 47, 20, 0.315);
+}
+.Usercard__Edit{
+    border: 1px solid #1a1212;
+    background-color: rgba(23, 104, 136, 0.247);
+}
