@@ -8,7 +8,7 @@ function App() {
   const [infoUpdate, setInfoUpdate] = useState()
   const [closeForm, setCloseForm] = useState(true)
 
-  const baseUrl = 'https://users-crud.academlo.tech'
+  const baseUrl = 'https://entregable2node-dev-rfjf.4.us-1.fl0.io/users'
 const [ users, getUsers, createUser, deleteUser, updateUser ] = useFetch(baseUrl, setCloseForm)
 
 useEffect(() => {
